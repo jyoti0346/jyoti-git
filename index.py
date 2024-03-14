@@ -7,6 +7,6 @@ def even_odd(num):
         return "Odd"
 
 # Test the function
-number = int(input("Enter a number: "))
+number = 5
 result = even_odd(number)
 print("The number is", result)
