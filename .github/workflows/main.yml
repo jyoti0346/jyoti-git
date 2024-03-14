@@ -7,7 +7,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      first_name = "Jyoti"
+      
     steps:
+      - name: my name
+        run: echo ${{ env.first_name}}
+
       - name: checkout repo content
         uses: actions/checkout@v4 # checkout the repository content
  
