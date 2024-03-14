@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      first_name = "Jyoti"
-      
+      first_name : "Jyoti"
+
     steps:
       - name: my name
         run: echo ${{ env.first_name}}
