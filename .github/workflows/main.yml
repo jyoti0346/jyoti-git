@@ -21,6 +21,11 @@ jobs:
  
       - name: Run a one-line script
         run: echo Hello, World!
+
+      - name: Run multi-line script
+        run: |
+             echo This is my work.
+             echo Submitted to you.  
  
  
  
